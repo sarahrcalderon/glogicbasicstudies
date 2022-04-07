@@ -14,32 +14,7 @@
 <body>
   <h1>Exercícios de Lógica de Programação</h1>
   <script>
-    //7. Como fazer com que essa tabuada seja utilizada por qualquer número e nao apenas o número 5?
-    document.write("5 vezes 1 é " + 5 * 1 + "<br>");
-    document.write("5 vezes 2 é " + 5 * 2 + "<br>");
-    document.write("5 vezes 3 é " + 5 * 3 + "<br>");
-    document.write("5 vezes 4 é " + 5 * 4 + "<br>");
-    document.write("5 vezes 5 é " + 5 * 5 + "<br>");
-    document.write("5 vezes 6 é " + 5 * 6 + "<br>");
-    document.write("5 vezes 7 é " + 5 * 7 + "<br>");
-    document.write("5 vezes 8 é " + 5 * 8 + "<br>");
-    document.write("5 vezes 9 é " + 5 * 9 + "<br>");
-    document.write("5 vezes 10 é " + 5 * 10 + "<br>");
-
-    var tabuada = 8;
-    document.write(tabuada + " x 1 = " + tabuada * 1 + "<br>");
-    document.write(tabuada + " x 2 = " + tabuada * 2 + "<br>");
-    document.write(tabuada + " x 3 = " + tabuada * 3 + "<br>");
-    document.write(tabuada + " x 4 = " + tabuada * 4 + "<br>");
-    document.write(tabuada + " x 5 = " + tabuada * 5 + "<br>");
-    document.write(tabuada + " x 6 = " + tabuada * 6 + "<br>");
-    document.write(tabuada + " x 7 = " + tabuada * 7 + "<br>");
-    document.write(tabuada + " x 8 = " + tabuada * 8 + "<br>");
-    document.write(tabuada + " x 9 = " + tabuada * 9 + "<br>");
-    document.write(tabuada + " x 10 = " + tabuada * 10 + "<br>");
-
-
-  //1. TRANSFORME A QUEBRA DE LINHA EM UMA ÚNICA LINHA DE CÓDIGO
+   //1. TRANSFORME A QUEBRA DE LINHA EM UMA ÚNICA LINHA DE CÓDIGO
   // document.write("Flávio nasceu em " + (2016 - 39));
   // document.write("<br>");
   // document.write("Joaquim nasceu em " + (2016 - 20));
@@ -67,7 +42,6 @@
   //document.write('Jack tem ' + (2020 - 1987) + " anos" + "<br>");
   // document.write('Ana tem ' + (2020 - 1997) + " anos");
 
-
   // var ano = 2020;
   // document.write('Juliana tem ' + (ano - 1977) + " anos" + "<br>");
   //document.write('Bruno tem ' + (ano - 1992) + " anos" + "<br>");
@@ -91,6 +65,94 @@
 
   // var minhaIdade = 20;
   // document.write("Eu nasci em " + (2016 - minhaIdade));
+
+
+  //7. E se quisermos a tabuada do 8? Teremos que fazer a alteração de valores em diversos lugares! O que podemos fazer para guardar o valor da tabuada que desejamos calcular?
+
+    // document.write("5 vezes 1 é " + 5 * 1 + "<br>");
+    // document.write("5 vezes 2 é " + 5 * 2 + "<br>");
+    // document.write("5 vezes 3 é " + 5 * 3 + "<br>");
+    //  document.write("5 vezes 4 é " + 5 * 4 + "<br>");
+    // document.write("5 vezes 5 é " + 5 * 5 + "<br>");
+    // document.write("5 vezes 6 é " + 5 * 6 + "<br>");
+    // document.write("5 vezes 7 é " + 5 * 7 + "<br>");
+    // document.write("5 vezes 8 é " + 5 * 8 + "<br>");
+    // document.write("5 vezes 9 é " + 5 * 9 + "<br>");
+    // document.write("5 vezes 10 é " + 5 * 10 + "<br>");
+
+    //var tabuada = 8;
+   // document.write(tabuada + " x 1 = " + tabuada * 1 + "<br>");
+   // document.write(tabuada + " x 2 = " + tabuada * 2 + "<br>");
+   // document.write(tabuada + " x 3 = " + tabuada * 3 + "<br>");
+   // document.write(tabuada + " x 4 = " + tabuada * 4 + "<br>");
+   // document.write(tabuada + " x 5 = " + tabuada * 5 + "<br>");
+   // document.write(tabuada + " x 6 = " + tabuada * 6 + "<br>");
+   // document.write(tabuada + " x 7 = " + tabuada * 7 + "<br>");
+   // document.write(tabuada + " x 8 = " + tabuada * 8 + "<br>");
+   // document.write(tabuada + " x 9 = " + tabuada * 9 + "<br>");
+   // document.write(tabuada + " x 10 = " + tabuada * 10 + "<br>");
+
+
+  //8. Qual a média das notas com um número inteiro?
+   // var mediaAna = 5;
+   // var mediaBruno = 7;
+   // var mediaLisa = 8;
+   // var media = (mediaAna + mediaBruno + mediaLisa) / 3;
+
+   // document.write('A média das notas é de:' + Math.round(media));
+   // document.write('<br>');
+   // document.write('<br>');
+
+   // var nome = 'Ana';
+   // document.write('A nota de ' + nome + ' é de: ' + mediaAna);
+   // document.write('<br>');
+
+   // nome = 'Bruno';
+   // document.write('A note de ' + nome + ' é de: ' + mediaBruno);
+   // document.write('<br>');
+
+    //nome = 'Lisa';
+    //document.write('A note de ' + nome + ' é de: ' + mediaLisa);
+
+    
+    //9.Roy perguntou ao hacker o que aqueles números significavam e o hacker disse: ah, o programa calcula a média das idades das minhas filhas. Linda tem 12 anos, Guaraciara tem 15 e Pérola tem 13!como você escreveria o código para que, Roy, entendesse desde o inicio? 
+    //document.write((12 + 15 + 13) / 3);
+
+
+   // var idadeLinda = 12;
+   // var idadeGuaraciara = 15;
+   // var idadePerola = 13;
+  //document.write((idadeLinda + idadeGuaraciara + idadePerola) / 3);
+
+
+  //10. Ele viu que poderia evitar o uso dos parênteses na instrução que imprime a média das idades se guardasse antes, em uma variável, a soma das idades.Altere o programa e aplique a ideia de Roy! Para isso, use a variável totalIdades.
+
+  //  var idadeLinda = 12;
+  //  var idadeGuaraciara = 15;
+  //  var idadePerola = 13;
+  // var totalIdades = ( idadeLinda + idadeGuaraciara + idadePerola);
+
+  // document.write( totalIdades / 3);
+
+
+
+  // 11. Álcool / Gasolina?
+  //Problema 1: Seu carro tem um tanque de 40 litros. Com gasolina e usando todo o tanque você fez um caminhoComGasolina de 480 quilômetros. Qual é o consumoDeGasolina? Para calculá-lo, divida a distância percorrida pela quantidade de litros gastos. Imprima o valor utilizando document.write. Organize as contas em variáveis.
+
+  // Problema 2: Com álcool, um tanque de 40 litros fez um caminhoComAlcool de 300 quilômetros. Qual é o consumoDeAlcool?</p>
+   
+    //   var tanqueDeGasolina = 40;
+    //   var caminhoComGasolina = 480;
+    //   var consumoDeGasolina = (caminhoComGasolina / tanqueDeGasolina);
+    //   document.write('Você consumirá: ' + consumoDeGasolina + ' Litros de gasolina.');
+    //   document.write("<br>");
+   
+    //   tanqueDeGasolina = 40;
+    //   var caminhoComAlcool = 300;
+    //   var consumoDeAlcool = (caminhoComAlcool / tanqueDeGasolina);
+    //   document.write('Utilizando álcool você consumirá:' + consumoDeAlcool + ' de Álcool.');
+
+   
 
   </script>
 </body>
