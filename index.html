@@ -12,9 +12,111 @@
 </head>
 
 <body>
-  <h1>Exercícios de Lógica de Programação</h1>
   <script>
-   //1. TRANSFORME A QUEBRA DE LINHA EM UMA ÚNICA LINHA DE CÓDIGO
+    //16.exercício 
+    function pulaLinha() {
+      document.write("<br>", "<hr>", "<br>");
+
+    }
+
+    function mostra(frase) {
+      document.write("<big>" + frase + "</big>");
+      pulaLinha();
+    }
+
+    var ano = 2022;
+    mostra("Eu nasci em : " + (ano - 25));
+    mostra("Adriano nasceu em : " + (ano - 26));
+    mostra("Paulo nasceu em : " + (ano - 32));
+
+
+
+
+
+   //14. function pulaLinha() {
+   //   document.write('<br>');
+   // }
+
+   // var portuguesesChegaram = 1500;
+   // var casalTemFilhos = 28;
+   // var primeiraGeração = 1528;
+   // var segundaGeração = 1556;
+  //  var mensagem = "Desde 1500 o Brasil já passou por várias gerações e atualmente estamos na: ";
+   // var descobrindoAgeração = (2022 - 1500) / 28;
+
+   // document.write(mensagem + Math.round(descobrindoAgeração));
+
+
+
+
+
+
+
+    //15. Quantos anos você tem de diferença do seu irmão?
+   // function pulaLinha() {
+
+   //   document.write("<br>");
+   // }
+
+
+   // var mensagem = "Nossa diferença de idade é:";
+   // var idade1 = 27;
+   // var idade2 = 29;
+    //var diferençaDeIdade = (29 - 27);
+
+  //  document.write(mensagem + diferençaDeIdade);
+
+   // pulaLinha();
+
+
+
+
+
+
+
+
+
+
+ //14.Como fazer a função exibeAlerta, que recebe como parâmetro o texto que queremos exibir no alerta, e que realiza a concatenação com os três asteriscos?
+
+  //  function exibeAlerta(mensagem) {
+  //    alert("***" + mensagem + "***");
+  //  }
+
+  //  var idade1 = 10;
+  //  var idade2 = 20;
+  //  var idade3 = 30;
+  //  var totalIdades = idade1 + idade2 + idade3;
+  //  var mediaIdades = totalIdades / 3;
+  //COM FUNCTION-  exibeAlerta("Total de idades é " + totalIdades);
+  //  exibeAlerta("A média das idades é " + mediaIdades);
+
+    ///////////////////////////////////////////////////
+  //  var idade1 = 10;
+  //   var idade2 = 20;
+  //  var idade3 = 30;
+  //  var totalIdades = idade1 + idade2 + idade3;
+  //  var mediaIdades = totalIdades / 3;
+  ///SEM FUNCTION-  alert("***Total de idades é " + totalIdades + "***");
+  ///  alert("***A média das idades é " + mediaIdades + "***");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //1. TRANSFORME A QUEBRA DE LINHA EM UMA ÚNICA LINHA DE CÓDIGO
   // document.write("Flávio nasceu em " + (2016 - 39));
   // document.write("<br>");
   // document.write("Joaquim nasceu em " + (2016 - 20));
@@ -69,67 +171,67 @@
 
   //7. E se quisermos a tabuada do 8? Teremos que fazer a alteração de valores em diversos lugares! O que podemos fazer para guardar o valor da tabuada que desejamos calcular?
 
-    // document.write("5 vezes 1 é " + 5 * 1 + "<br>");
-    // document.write("5 vezes 2 é " + 5 * 2 + "<br>");
-    // document.write("5 vezes 3 é " + 5 * 3 + "<br>");
-    //  document.write("5 vezes 4 é " + 5 * 4 + "<br>");
-    // document.write("5 vezes 5 é " + 5 * 5 + "<br>");
-    // document.write("5 vezes 6 é " + 5 * 6 + "<br>");
-    // document.write("5 vezes 7 é " + 5 * 7 + "<br>");
-    // document.write("5 vezes 8 é " + 5 * 8 + "<br>");
-    // document.write("5 vezes 9 é " + 5 * 9 + "<br>");
-    // document.write("5 vezes 10 é " + 5 * 10 + "<br>");
+  // document.write("5 vezes 1 é " + 5 * 1 + "<br>");
+  // document.write("5 vezes 2 é " + 5 * 2 + "<br>");
+  // document.write("5 vezes 3 é " + 5 * 3 + "<br>");
+  // document.write("5 vezes 4 é " + 5 * 4 + "<br>");
+  // document.write("5 vezes 5 é " + 5 * 5 + "<br>");
+  // document.write("5 vezes 6 é " + 5 * 6 + "<br>");
+  // document.write("5 vezes 7 é " + 5 * 7 + "<br>");
+  // document.write("5 vezes 8 é " + 5 * 8 + "<br>");
+  // document.write("5 vezes 9 é " + 5 * 9 + "<br>");
+  // document.write("5 vezes 10 é " + 5 * 10 + "<br>");
 
-    //var tabuada = 8;
-   // document.write(tabuada + " x 1 = " + tabuada * 1 + "<br>");
-   // document.write(tabuada + " x 2 = " + tabuada * 2 + "<br>");
-   // document.write(tabuada + " x 3 = " + tabuada * 3 + "<br>");
-   // document.write(tabuada + " x 4 = " + tabuada * 4 + "<br>");
-   // document.write(tabuada + " x 5 = " + tabuada * 5 + "<br>");
-   // document.write(tabuada + " x 6 = " + tabuada * 6 + "<br>");
-   // document.write(tabuada + " x 7 = " + tabuada * 7 + "<br>");
-   // document.write(tabuada + " x 8 = " + tabuada * 8 + "<br>");
-   // document.write(tabuada + " x 9 = " + tabuada * 9 + "<br>");
-   // document.write(tabuada + " x 10 = " + tabuada * 10 + "<br>");
+  //var tabuada = 8;
+  // document.write(tabuada + " x 1 = " + tabuada * 1 + "<br>");
+  // document.write(tabuada + " x 2 = " + tabuada * 2 + "<br>");
+  // document.write(tabuada + " x 3 = " + tabuada * 3 + "<br>");
+  // document.write(tabuada + " x 4 = " + tabuada * 4 + "<br>");
+  // document.write(tabuada + " x 5 = " + tabuada * 5 + "<br>");
+  // document.write(tabuada + " x 6 = " + tabuada * 6 + "<br>");
+  // document.write(tabuada + " x 7 = " + tabuada * 7 + "<br>");
+  // document.write(tabuada + " x 8 = " + tabuada * 8 + "<br>");
+  // document.write(tabuada + " x 9 = " + tabuada * 9 + "<br>");
+  // document.write(tabuada + " x 10 = " + tabuada * 10 + "<br>");
 
 
   //8. Qual a média das notas com um número inteiro?
-   // var mediaAna = 5;
-   // var mediaBruno = 7;
-   // var mediaLisa = 8;
-   // var media = (mediaAna + mediaBruno + mediaLisa) / 3;
+  // var mediaAna = 5;
+  // var mediaBruno = 7;
+  // var mediaLisa = 8;
+  // var media = (mediaAna + mediaBruno + mediaLisa) / 3;
 
-   // document.write('A média das notas é de:' + Math.round(media));
-   // document.write('<br>');
-   // document.write('<br>');
+  // document.write('A média das notas é de:' + Math.round(media));
+  // document.write('<br>');
+  // document.write('<br>');
 
-   // var nome = 'Ana';
-   // document.write('A nota de ' + nome + ' é de: ' + mediaAna);
-   // document.write('<br>');
+  // var nome = 'Ana';
+  // document.write('A nota de ' + nome + ' é de: ' + mediaAna);
+  // document.write('<br>');
 
-   // nome = 'Bruno';
-   // document.write('A note de ' + nome + ' é de: ' + mediaBruno);
-   // document.write('<br>');
+  // nome = 'Bruno';
+  // document.write('A note de ' + nome + ' é de: ' + mediaBruno);
+  // document.write('<br>');
 
-    //nome = 'Lisa';
-    //document.write('A note de ' + nome + ' é de: ' + mediaLisa);
-
-    
-    //9.Roy perguntou ao hacker o que aqueles números significavam e o hacker disse: ah, o programa calcula a média das idades das minhas filhas. Linda tem 12 anos, Guaraciara tem 15 e Pérola tem 13!como você escreveria o código para que, Roy, entendesse desde o inicio? 
-    //document.write((12 + 15 + 13) / 3);
+  //nome = 'Lisa';
+  //document.write('A note de ' + nome + ' é de: ' + mediaLisa);
 
 
-   // var idadeLinda = 12;
-   // var idadeGuaraciara = 15;
-   // var idadePerola = 13;
+  //9.Roy perguntou ao hacker o que aqueles números significavam e o hacker disse: ah, o programa calcula a média das idades das minhas filhas. Linda tem 12 anos, Guaraciara tem 15 e Pérola tem 13!como você escreveria o código para que, Roy, entendesse desde o inicio?
+  //document.write((12 + 15 + 13) / 3);
+
+
+  // var idadeLinda = 12;
+  // var idadeGuaraciara = 15;
+  // var idadePerola = 13;
   //document.write((idadeLinda + idadeGuaraciara + idadePerola) / 3);
 
 
   //10. Ele viu que poderia evitar o uso dos parênteses na instrução que imprime a média das idades se guardasse antes, em uma variável, a soma das idades.Altere o programa e aplique a ideia de Roy! Para isso, use a variável totalIdades.
 
-  //  var idadeLinda = 12;
-  //  var idadeGuaraciara = 15;
-  //  var idadePerola = 13;
+  // var idadeLinda = 12;
+  // var idadeGuaraciara = 15;
+  // var idadePerola = 13;
   // var totalIdades = ( idadeLinda + idadeGuaraciara + idadePerola);
 
   // document.write( totalIdades / 3);
@@ -140,19 +242,61 @@
   //Problema 1: Seu carro tem um tanque de 40 litros. Com gasolina e usando todo o tanque você fez um caminhoComGasolina de 480 quilômetros. Qual é o consumoDeGasolina? Para calculá-lo, divida a distância percorrida pela quantidade de litros gastos. Imprima o valor utilizando document.write. Organize as contas em variáveis.
 
   // Problema 2: Com álcool, um tanque de 40 litros fez um caminhoComAlcool de 300 quilômetros. Qual é o consumoDeAlcool?</p>
-   
-    //   var tanqueDeGasolina = 40;
-    //   var caminhoComGasolina = 480;
-    //   var consumoDeGasolina = (caminhoComGasolina / tanqueDeGasolina);
-    //   document.write('Você consumirá: ' + consumoDeGasolina + ' Litros de gasolina.');
-    //   document.write("<br>");
-   
-    //   tanqueDeGasolina = 40;
-    //   var caminhoComAlcool = 300;
-    //   var consumoDeAlcool = (caminhoComAlcool / tanqueDeGasolina);
-    //   document.write('Utilizando álcool você consumirá:' + consumoDeAlcool + ' de Álcool.');
 
-   
+  // var tanqueDeGasolina = 40;
+  // var caminhoComGasolina = 480;
+  // var consumoDeGasolina = (caminhoComGasolina / tanqueDeGasolina);
+  // document.write('Você consumirá: ' + consumoDeGasolina + ' Litros de gasolina.');
+  // document.write("<br>");
+
+  // tanqueDeGasolina = 40;
+  // var caminhoComAlcool = 300;
+  // var consumoDeAlcool = (caminhoComAlcool / tanqueDeGasolina);
+  // document.write('Utilizando álcool você consumirá:' + consumoDeAlcool + ' de Álcool.');
+
+
+
+  //12. UTILIZANDO FUNCTION SEM PARAMETRO
+
+  //function fazPegadinha() {
+  // alert("Olá");
+  // alert("amiga!");
+  // alert("Tá");
+  // alert("bastante");
+  // alert("entediada?");
+  // alert("Em ficar");
+  // alert("Clicando em");
+  // alert("Ok");
+  // alert("né?");
+  // }
+
+  // fazPegadinha();
+
+
+//13. COMO PULAR DUAS LINHAS SEM PRECISAR UTILIZAR O pulaLinha(); duas vezes na mesma linha?
+   // function pulaLinha() {
+
+   //   document.write("<br>", "<br>");
+   // }
+
+   // var titulo = "Bem-vindo ao meu programa!";
+
+  //  document.write("<h1>" + titulo + "</h1>");
+
+   // pulaLinha();
+
+  //  document.write("Vocês não sabem o que tive que aprender para fazer isso!");
+
+  //  pulaLinha();
+
+   // document.write("Contudo, assistindo os vídeos e estudando ...");
+
+  //  pulaLinha();
+
+  //  document.write("Eu vou mais longe!");
+
+  //  pulaLinha();
+
 
   </script>
 </body>
