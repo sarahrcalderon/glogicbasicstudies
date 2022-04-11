@@ -12,22 +12,122 @@
 </head>
 
 <body>
-  <script>
+  <script>     
+
+  function pulaLinha() {
+    document.write("<br>");
+}
+
+function mostra(frase) {
+  document.write(frase);
+ pulaLinha();
+}
+
+function calculaImc(altura, peso) {
+return peso/(altura * altura);
+}
+
+var nome = prompt(" Informe seu nome");
+var alturaInformada = prompt(" Informe sua altura: ");
+var pesoInformado = prompt(nome + " Informe seu peso: ");
+var imc = calculaImc(alturaInformada, pesoInformado);
+
+document.write(nome + "o seu imc é de: " + imc);
+
+   //19.
+   //   function pulaLinha() {
+    //       document.write("<br>");
+   //  }
+    
+  // function mostra(frase) {
+   //      document.write(frase);
+   //     pulaLinha();
+   // }
+    
+   // function calculaImc(altura, peso) {
+   //   return peso/(altura*altura);
+  //  }
+
+  //  var totalImc = calculaImc(1.75, 67) + calculaImc(1.65, 56);
+
+  // document.write("A soma dos imcs é de : " + totalImc);
+
+
+
+
+    //18. PQ ESTÁ APARENDO "O meu IMC é undefined"."?
+    //    function pulaLinha() {
+    //        document.write("<br>");
+    //    }
+    
+    //    function mostra(frase) {
+    //        document.write(frase);
+    //        pulaLinha();
+    //    }
+    
+    //    function calculaImc(altura, peso) {
+    
+    //        var imc = peso / (altura * altura);
+         
+    //    }
+    
+    //    var imcCalculado = calculaImc(1.77, 75);
+    //    mostra("O meu IMC é : " + imcCalculado);
+////////////////////////////////////////////////////////////////
+      //Resolução
+
+  //  function pulaLinha() {
+   //     document.write("<br>");
+  //  }
+
+   // function mostra(frase) {
+   //     document.write(frase);
+   //     pulaLinha();
+  //  }
+
+  //  function calculaImc(altura, peso) {
+
+   //     var imc = peso / (altura * altura);
+   //     return imc;  <------------return----------------!
+   // }
+
+   // var imcCalculado = calculaImc(1.77, 75);
+   // mostra("O meu IMC é : " + imcCalculado);
+
+
+
+
+
+
+    //17.O primeiro é uma letra e os outros dois são números que no final devem retornar um código.
+    //O CÓDIGO = GH1022
+
+    //Lionel teve a brilhante, mas questionável ideia 
+   //de fazer o seguinte: Não importando quais os 
+    //parâmetros da função, ela sempre retornará GH1022.
+
+   // function geraCodigo(letra, numero1, numero2) {
+   //   return "GH1022";
+
+  //  }
+    
+
+
     //16.exercício 
-    function pulaLinha() {
-      document.write("<br>", "<hr>", "<br>");
+    //function pulaLinha() {
+    //  document.write("<br>", "<hr>", "<br>");
 
-    }
+   // }
 
-    function mostra(frase) {
-      document.write("<big>" + frase + "</big>");
-      pulaLinha();
-    }
+   // function mostra(frase) {
+   //   document.write("<big>" + frase + "</big>");
+   //   pulaLinha();
+  //  }
 
-    var ano = 2022;
-    mostra("Eu nasci em : " + (ano - 25));
-    mostra("Adriano nasceu em : " + (ano - 26));
-    mostra("Paulo nasceu em : " + (ano - 32));
+  //  var ano = 2022;
+  //  mostra("Eu nasci em : " + (ano - 25));
+  //  mostra("Adriano nasceu em : " + (ano - 26));
+  //  mostra("Paulo nasceu em : " + (ano - 32));
 
 
 
